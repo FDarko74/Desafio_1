@@ -18,8 +18,8 @@ span{
 }
 h1{
     font-family: "Dosis", sans-serif;
-    font-style: normal;
-    font-weight: 200px;
+    font-weight: 700;
+    margin: 16px 66px 8px;
 }
 h1, strong{
     color: #3F3D56;
@@ -28,9 +28,20 @@ p{
     color: #828282;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300px;
+    font-weight: 300;
     font-style: normal;
 }
 #main img{ 
-    margin: 0px 138px 32px; 
+    margin: 0px 138px 16px;
+}
+#text{
+    margin: 8px 36px 32px 50px;
+    padding: 0px 75px 0px 75px;
+}
+#line{
+    border-top: 1px solid #ECEFF2;
+    margin: 0px 316px 16px 317px;
+}
+#footer a + a{
+    padding-left: 42px;
 }
